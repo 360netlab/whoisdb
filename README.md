@@ -83,7 +83,7 @@ apple.com	first_seen                  2018-10-15 18:51:34
 Before execute the script, a config file that contain the authentication token should be configured properly.
 Any of the following two methods can be work fine.
 
-1. ``cat TOKEN = xxxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx > ~/.netlab.token`` (Higly recommend)
+1. ``echo TOKEN = xxxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx > ~/.netlab.token`` (Higly recommend)
 2. Create netlab.token file at any path, and assign a specified configuration file while running the script with  `-c` parameter. 
 
 	``whoisdb detail apple.com -c {PATH}/netlab.token``
