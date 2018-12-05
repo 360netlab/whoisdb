@@ -75,4 +75,13 @@ apple.com	registrarname               CSC CORPORATE DOMAINS, INC.
 apple.com	whoisserver                 whois.corporatedomains.com
 apple.com	nameservers                 a.ns.apple.com | b.ns.apple.com | c.ns.apple.com | d.ns.apple.com | e.ns.apple.com | f.ns.apple.com
 apple.com	first_seen                  2018-10-15 18:51:34
+
 ```
+
+## How to use the script?
+
+Before execute the script, a config file that contain the authentication token should be configured properly.
+Any of the following two methods can be work fine.
+
+1. cat TOKEN = xxxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx > ~/.netlab.token (Higly recommend)
+2. Create netlab.token file at any path, and assign a specified configuration file while running the script with  `-c` parameter 
