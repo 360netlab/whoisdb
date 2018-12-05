@@ -31,3 +31,48 @@ Options:
   -c CONFIG, --config=CONFIG
                         config file
 ```
+
+The output demo
+
+```
+➜  whoisdb $ python whoisdb detail apple.com
+apple.com	domainname                  apple.com
+apple.com	createddate                 1987-02-19 05:00:00
+apple.com	updateddate                 2018-09-27 20:53:12
+apple.com	expiresdate                 2021-02-20 05:00:00
+apple.com	status                      clientTransferProhibited
+apple.com	registrant_email            domains@apple.com
+apple.com	registrant_name             Domain Administrator
+apple.com	registrant_organization     Apple Inc.
+apple.com	registrant_address          One Apple Park Way
+apple.com	registrant_city             Cupertino
+apple.com	registrant_state            CA
+apple.com	registrant_postalcode       95014
+apple.com	registrant_country          UNITED STATES
+apple.com	registrant_fax              +1.4089741560
+apple.com	registrant_telephone        +1.4089961010
+apple.com	admin_email                 domains@apple.com
+apple.com	admin_name                  Domain Administrator
+apple.com	admin_organization          Apple Inc.
+apple.com	admin_address               One Apple Park Way
+apple.com	admin_city                  Cupertino
+apple.com	admin_state                 CA
+apple.com	admin_postalcode            95014
+apple.com	admin_country               UNITED STATES
+apple.com	admin_fax                   +1.4089741560
+apple.com	admin_telephone             +1.4089961010
+apple.com	tech_email                  apple-noc@apple.com
+apple.com	tech_name                   Domain Administrator
+apple.com	tech_organization           Apple Inc.
+apple.com	tech_address                One Apple Park Way
+apple.com	tech_city                   Cupertino
+apple.com	tech_state                  CA
+apple.com	tech_postalcode             95014
+apple.com	tech_country                UNITED STATES
+apple.com	tech_fax                    +1.4089741560
+apple.com	tech_telephone              +1.4089961010
+apple.com	registrarname               CSC CORPORATE DOMAINS, INC.
+apple.com	whoisserver                 whois.corporatedomains.com
+apple.com	nameservers                 a.ns.apple.com | b.ns.apple.com | c.ns.apple.com | d.ns.apple.com | e.ns.apple.com | f.ns.apple.com
+apple.com	first_seen                  2018-10-15 18:51:34
+```
